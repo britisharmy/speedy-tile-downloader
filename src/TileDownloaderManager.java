@@ -21,9 +21,9 @@ public class TileDownloaderManager {
 	 */
 	
 	private final static String tileService = "http://b.tile.openstreetmap.org";
-	private final static String destPath = "C:/osm_tiles";
-	private final static int zoomStart = 0;
-	private final static int zoomEnd = 6;
+	private final static String destPath = "/var/lib/mod_tile/";
+	private final static int zoomStart = 5;
+	private final static int zoomEnd = 16;
 	
 	/**
 	 * Main method to run application.
