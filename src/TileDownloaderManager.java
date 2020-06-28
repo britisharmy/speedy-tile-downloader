@@ -32,8 +32,8 @@ public class TileDownloaderManager {
 	 */
 	public static void main(String[] args) {
 		TileDownloaderManager tileDownloaderManager = new TileDownloaderManager();
-		tileDownloaderManager.downloadTilesSingleThread(tileService, destPath, zoomStart, zoomEnd);
-		//tileDownloaderManager.downloadTilesMultiThread(tileService, destPath, zoomStart, zoomEnd);
+		//tileDownloaderManager.downloadTilesSingleThread(tileService, destPath, zoomStart, zoomEnd);
+		tileDownloaderManager.downloadTilesMultiThread(tileService, destPath, zoomStart, zoomEnd);
 	}
 	
 	/**
