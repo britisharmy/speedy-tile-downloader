@@ -94,7 +94,7 @@ public class TileDownloaderManager {
 		int zoomStart = zStart;
 		int zoomEnd = zEnd;
 		
-		int numberOfThread = 0;
+		int numberOfThread = 20;
 		Date startDate = new Date();
 
 		// Divide works to threads
