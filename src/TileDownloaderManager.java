@@ -20,7 +20,7 @@ public class TileDownloaderManager {
 	 * TODO : Add Url Pattern Support : {z}/{x}/{y}.png 
 	 */
 	
-	private final static String tileService = "http://b.tile.openstreetmap.org";
+	private final static String tileService = "https://b.tile.openstreetmap.org";
 	private final static String destPath = "/var/lib/mod_tile/";
 	private final static int zoomStart = 5;
 	private final static int zoomEnd = 16;
